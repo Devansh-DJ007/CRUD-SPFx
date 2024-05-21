@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "dr-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dr2/Dr2WebPart.js",
+          "manifest": "./src/webparts/dr2/Dr2WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Dr2WebPartStrings": "lib/webparts/dr2/loc/{locale}.js"
+  }
+}
